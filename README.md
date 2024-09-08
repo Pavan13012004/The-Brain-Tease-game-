@@ -1,10 +1,10 @@
-# The-Brain-Tease-game-
+# The Brain Tease game
 
 ## Hangman Game
 
 This is a simple text-based Hangman game implemented in Python. The game randomly selects a word, and the player attempts to guess it by suggesting letters within a limited number of attempts.
 
-# Features
+## Features
 
 Random word selection from a predefined list.
 Player can guess one letter at a time.
@@ -16,7 +16,7 @@ Win: Player successfully guesses the word.
 Lose: Player runs out of attempts, and the correct word is revealed.
 
 
-# How to Play
+## How to Play
 The game randomly chooses a word from the list of words.
 The player is prompted to guess a letter.
 If the guessed letter is in the word, it is revealed in its correct position(s).
@@ -29,7 +29,7 @@ Python 3.x
 random module (comes with Python's standard library)
 
 
-# How to Run
+## How to Run
 
 Clone the repository:
 
@@ -48,7 +48,7 @@ Copy code
 python hangman.py
 
 
-# Code Overview
+## Code Overview
 
 Word List: The game uses a predefined list of words, from which one is randomly chosen for each game.
 Gameplay Logic:
@@ -60,7 +60,7 @@ The player wins by guessing all letters of the word.
 The player loses if they run out of attempts without guessing the word.
 
 
-# Example
+## Example
 
 plaintext
 Copy code
